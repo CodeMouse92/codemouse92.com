@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'hackregular';
+    src: url('Hack-Regular-webfont.eot');
+    src: url('Hack-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Hack-Regular-webfont.woff2') format('woff2'),
+         url('Hack-Regular-webfont.woff') format('woff'),
+         url('Hack-Regular-webfont.ttf') format('truetype'),
+         url('Hack-Regular-webfont.svg#hackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

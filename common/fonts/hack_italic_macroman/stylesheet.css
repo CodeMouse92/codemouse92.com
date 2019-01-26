@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'hackitalic';
+    src: url('Hack-Italic-webfont.eot');
+    src: url('Hack-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Hack-Italic-webfont.woff2') format('woff2'),
+         url('Hack-Italic-webfont.woff') format('woff'),
+         url('Hack-Italic-webfont.ttf') format('truetype'),
+         url('Hack-Italic-webfont.svg#hackitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
