@@ -1,0 +1,31 @@
+# Do not allow browsing indexes. (-Indexes)
+# MultiViews MUST be off for this thing to work right! (-MultiViews)
+# Includes allows using the common header/footer (etc) files.
+Options +FollowSymLinks +Includes -Indexes -MultiViews
+
+# Allow rewriting URLs
+RewriteEngine on
+
+# This allows SSI conditionals
+SSILegacyExprParser on
+
+# Process SSI in .html files
+AddHandler server-parsed .html
+
+<FilesMatch "\.(ttf|otf|eot|woff)$">
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+ </IfModule>
+</FilesMatch>
+
+# LOCK OUT BROWSING LINKED PAGES (pages designed for soft-linking)
+#RewriteRule ^linked/ - [NC,F,L]
+
+# ERROR PAGES
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
+
+RewriteRule ^author\/?$ "/author.html" [NC,L]
+RewriteRule ^speaker\/?$ "/speaker.html" [NC,L]
+RewriteRule ^hacker\/?$ "/hacker.html" [NC,L]
+RewriteRule ^timelord\/?$ "/timelord.html" [NC,L]
