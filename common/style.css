@@ -69,10 +69,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     font-family: 'Hack';
     src: url('/common/fonts/hack_regular_macroman/Hack-Regular-webfont.eot');
     src: url('/common/fonts/hack_regular_macroman/Hack-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/common/fonts/hack_regular_macroman/Hack-Regular-webfont.woff2') format('woff2'),
-         url('/common/fonts/hack_regular_macroman/Hack-Regular-webfont.woff') format('woff'),
-         url('/common/fonts/hack_regular_macroman/Hack-Regular-webfont.ttf') format('truetype'),
-         url('/common/fonts/hack_regular_macroman/Hack-Regular-webfont.svg#hackregular') format('svg');
+        url('/common/fonts/hack_regular_macroman/Hack-Regular-webfont.woff2') format('woff2'),
+        url('/common/fonts/hack_regular_macroman/Hack-Regular-webfont.woff') format('woff'),
+        url('/common/fonts/hack_regular_macroman/Hack-Regular-webfont.ttf') format('truetype'),
+        url('/common/fonts/hack_regular_macroman/Hack-Regular-webfont.svg#hackregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
