@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: indeliblebluepen.com
+Token: 14b426f5b438f1499ff3ac19d53292c0b02bce6fc2aa11b7816ddc19e6ca3fbb
