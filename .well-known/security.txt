@@ -1,0 +1,7 @@
+Contact: mailto:webmaster@mousepawmedia.com
+Encryption: 
+Acknowledgements: 
+Policy: 
+Signature: https://codemouse92.com/.well-known/security.txt.sig
+Hiring: https://github.com/codemouse92/codemouse92.com
+OpenBugBounty: https://openbugbounty.org/bugbounty/codemouse92/
